@@ -1,0 +1,45 @@
+
+
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+.hero {
+    position: relative;
+
+}
+.hero-overlay{
+    position: absolute;
+    top: 20vw;
+    left: 20vw;
+    right: 20vw;
+   text-align: center;
+    z-index: 0;
+    padding: 4vw;
+    border-radius: 6px;
+    box-shadow: 1px 1px 20px black;
+    background: rgba(0, 0, 139, 0.5);
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero  .hero-overlay h1 {
+    color: beige;
+    text-shadow: 2px 2px 2px black;
+    font-size: 9vw;
+    transform: translate(1vw);
+}
+    
+
+.hero .hero-image {
+    width: 100vw;
+    position: absolute;
+    top: -50px;
+    display: block;
+    overflow: visible;
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-top: ; */
+    margin: auto;
+    z-index: -2;
+}
