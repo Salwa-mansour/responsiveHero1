@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.hero {
+    position: relative;
+
+}
+
+.hero > .overlay {
+    position: absolute;
+    text-align: center;
+    text-transform: capitalize;
+    z-index: 10;
+    top: 30vw;
+    margin: 0px 27vw;
+    background: rgba(235, 199, 99, 0.5);
+    padding: 3vw;
+    border-radius: 6px;
+    box-shadow: .5px .5px 20px rgb(77, 26, 26);
+   
+}
+
+.hero > .overlay > h1 {
+    color: rgb(77, 26, 26);
+    font-size: 6vw;
+    text-shadow: .5px .5px 2px rgb(77, 26, 26);
+    /* transform: translate(9vw); */
+}
+
+.hero > .hero-img {
+    display: block;
+    overflow: visible;
+    width: 100%;
+    z-index: 1;
+}
