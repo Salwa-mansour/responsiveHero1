@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.hero{
+    position: relative;
+   
+}
+
+.overlay {
+    position: absolute;
+    top: 25vh;
+    margin:20vw;
+    color: blanchedalmond;
+    
+}
+
+#hero-img {
+  display: block;
+  overflow: visible;
+  width: 100%;
+
+}
