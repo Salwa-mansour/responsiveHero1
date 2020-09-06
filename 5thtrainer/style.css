@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+}
+
+.hero{
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    top: 60vw;
+    /* right: 25vw; */
+    z-index: 10;
+    display: inline-block;
+    margin: 10vw;
+}
+
+#hero-img {
+    position: absolute;
+    top: -30vw;
+    z-index: 0;
+    display: block;
+    width: 100%;
+}
