@@ -1,0 +1,23 @@
+
+/* screen width 532px */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.hero{
+    position: relative;
+}
+
+.hero-img{
+    display: block;
+    position: absolute;
+    top: -10rem;
+    width: 100%;
+}
+.overlay{
+    position: absolute;
+    z-index: 10;
+    box-sizing: border-box;
+    margin: 18rem 8rem;
+    padding: 1rem;
+}
